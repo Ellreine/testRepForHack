@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tesk Click</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main">
+      <!-- <div class="wave-element"></div> -->
+      <!-- <img src="./airplane.png" class="airplane"></img> -->
+      <!-- <img src="./bang2.png" class="bang"></img> -->
+      <div class="section-click">
+        <form class="form-timer">
+          <label for="timer" class="form-timer__text"> Enter game time </label>
+          <input
+            id="timer"
+            type="text"
+            name="time"
+            value="5"
+            placeholder="Введите время игры (таймера)"
+          />
+          <button type="submit" class="btn">Start</button>
+        </form>
+      </div>
+      <div class="bot-panel">
+        <div class="section-timer">
+          <img class="section-timer__img none-select" src="./1.png" alt="" />
+          <p class="section-timer__text none-select">sec</p>
+        </div>
+
+        <div class="counters">
+          <div class="shoots">
+            <img class="image-patrons none-select" src="./bomb.png" alt="" />
+            <p class="shoots-text none-select">0</p>
+          </div>
+          <div class="hits">
+            <img class="image-hits none-select" src="./hits.png" alt="" />
+            <p class="hits-text none-select">0</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="finish-game hidden">
+        <p>Time is over! :3</p>
+      </div> -->
+
+      <!-- <button class="btn">Start</button> -->
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
